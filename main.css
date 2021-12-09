@@ -1,0 +1,158 @@
+html {
+  height: 100%;
+}
+
+/*style of web pages*/
+body {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+  font-size:xxx-large;
+}
+h2{
+  font-size:xx-large;
+}
+
+p{
+  font-size: larger;
+}
+
+.banner{
+  width: 1024px;
+}
+
+/*general about the main menu*/
+.menu {
+  padding-top: 125px;
+  padding-bottom: 30px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  background-color:whitesmoke;
+  background-image: url(/images/banner4.png);
+}
+
+/*the style for the main menu on all pages should be here*/
+.menu-item {
+  border: 1px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(241, 151, 77);
+  text-align: center;
+  width: 220px;
+  margin: 0 5px 0 5px;
+  font-size:x-large;
+}
+
+/*the style navigation of current page (selected page)*/
+.menu-item.selected {
+  background-color:rgb(106, 114, 158);
+}
+
+/* Change the link color on hover */
+.menu-item:hover {
+  background-color: rgb(102, 125, 255);
+  
+}
+
+nav {
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+
+
+main {
+  background-color: rgb(237, 239, 248);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding: 25px;
+  display: flex;
+}
+
+/*the style of left side navigation that is available on Social Engineering Attacks web page*/
+ul.secondary-menu-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  width: 200px;
+  background-color: #dfdfff;
+  border: 1px;
+  border-radius: 10px;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 13px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color:rgb(108, 219, 210);
+  color: black;
+  border: 1px;
+  border-radius: 10px;
+}
+
+/*the style of left side navigation that is available on Social Engineering Attacks web page*/
+.secondary-menu {
+  flex: 0 0 15%;
+  
+}
+
+/*style of left side navigation current page (selected page)*/
+.secondary-menu-item.selected {
+  background-color: rgb(108, 219, 210);
+  color: white;
+  border: 1px;
+  border-radius: 10px;
+}
+
+/*the style of text on Social Engineering Attacks web pages*/
+.secondary-main {
+  flex: 1;
+  padding-left: 15px;
+}
+
+.secondary-main h1 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: rgb(3, 21, 96);
+  padding: 5px 25px 5px 25px;
+  text-align: center;
+  color: white;
+}
+
+ion-icon:hover{
+  font-size: 25px;
+  color: rgba(50, 50, 110, 0.555);
+  transition: all, 0.5s, ease 0.5s;
+}
+ion-icon {
+  color: black;
+  font-size: 25px;
+  
+}
+
+ion-icon {
+  --ionicon-stroke-width: 100px;
+}
