@@ -157,12 +157,12 @@ footer ico-icon {
 
 ion-icon:hover{
   font-size: 35px;
-  color: rgb(102, 125, 255);
+  color: rgb(163, 177, 255);
   transition: all, 0.5s, ease 0.5s;
 }
 
 ion-icon {
-  color: white;
+  color: rgb(102, 125, 255);
   font-size: 35px;
 }
 
