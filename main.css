@@ -47,7 +47,6 @@ p{
   padding: 5px;
   background-color: rgb(241, 151, 77);
   text-align: center;
-  align-items: center;
   width: 220px;
   margin: 0 5px 0 5px;
   font-size:x-large;
@@ -143,22 +142,17 @@ footer {
   padding: 5px 25px 5px 25px;
   text-align: center;
   color: white;
-  font-size: small;
-  padding-top: 20px;
-}
-
-footer ion-icon{
-  color:white;
+  box-shadow: inset 0 0 15px #000000;
 }
 
 ion-icon:hover{
-  font-size: 35px;
-  color: rgb(108, 219, 210);
+  font-size: 25px;
+  color: rgba(50, 50, 110, 0.555);
   transition: all, 0.5s, ease 0.5s;
 }
 ion-icon {
   color: black;
-  font-size: 35px;
+  font-size: 25px;
   
 }
 
